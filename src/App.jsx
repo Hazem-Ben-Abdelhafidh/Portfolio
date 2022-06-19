@@ -3,7 +3,7 @@ import Header from "./Components/Header/Header";
 
 function App() {
   return (
-    <div>
+    <div className=" text-gray-700">
       <Header />
       <AppRoutes />
     </div>
