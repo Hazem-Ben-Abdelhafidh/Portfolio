@@ -5,7 +5,7 @@ import { IoIosMail } from "react-icons/io";
 import Link from "./Link";
 const Navigation = () => {
   return (
-    <nav className=" shadow-sm flex justify-center h-12 w-full items-center p-2">
+    <nav className="  flex justify-center h-12 w-full items-center p-2">
       <ul className=" flex justify-around items-center w-full p-2">
         <Link path="/" icon={<AiFillHome />} />
 
