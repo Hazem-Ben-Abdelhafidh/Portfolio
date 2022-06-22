@@ -5,3 +5,7 @@
 .button {
   @apply font-semibold font-logo border-2 p-2 rounded-lg hover:text-white hover:bg-blue-600 transition-all;
 }
+
+.input {
+  @apply p-2 ring-2 rounded ring-blue-500 w-full shadow-md outline-none focus:-translate-y-2 transition-transform;
+}
