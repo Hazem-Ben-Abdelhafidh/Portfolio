@@ -7,5 +7,5 @@
 }
 
 .input {
-  @apply p-2 ring-2 rounded ring-blue-500 w-full shadow-md outline-none focus:-translate-y-2 transition-transform;
+  @apply mb-4 p-2 ring-2 rounded ring-blue-500 w-full shadow-md outline-none focus:-translate-y-1 transition-transform;
 }
