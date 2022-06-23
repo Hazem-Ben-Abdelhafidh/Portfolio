@@ -66,7 +66,7 @@ const Contact = () => {
         ></textarea>
         <input
           type="submit"
-          className="p-3 w-full rounded cursor-pointer bg-blue-500 font-semibold text-white hover:bg-blue-600 transition-all ring-0"
+          className="p-3 mb-3 w-full rounded cursor-pointer bg-blue-500 font-semibold text-white hover:bg-blue-600 transition-all ring-0"
           value="Send"
         />
       </form>
