@@ -15,9 +15,9 @@ const Home = () => {
             Contact Me!
           </Link>
           <a
-            href="Hazem-Ben-Abdelhafidh-Resume.pdf"
+            href="./../../Hazem-Ben-Abdelhafidh-Resume.pdf"
             className="button cursor-pointer"
-            download
+            download={"Hazem Ben Abdelhafidh Resume"}
           >
             Download Resume!
           </a>
