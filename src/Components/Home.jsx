@@ -14,9 +14,13 @@ const Home = () => {
           <Link className="button" to="/contact">
             Contact Me!
           </Link>
-          <Link className="button" to="/contact">
+          <a
+            href="Hazem-Ben-Abdelhafidh-Resume.pdf"
+            className="button cursor-pointer"
+            download
+          >
             Download Resume!
-          </Link>
+          </a>
         </div>
       </div>
     </div>
