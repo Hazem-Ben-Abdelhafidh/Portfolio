@@ -8,7 +8,6 @@ const Link = ({ path, icon, name }) => {
         to={path}
         className={(data) => {
           setActive(data.isActive);
-          console.log(data.isActive);
           return data.isActive
             ? "text-2xl text-blue-500 group-hover:text-blue-500 duration-500"
             : "text-2xl group-hover:text-blue-500 duration-500";

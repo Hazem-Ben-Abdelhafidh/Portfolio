@@ -56,7 +56,7 @@ const Contact = () => {
           required
         />
         <textarea
-          className="input"
+          className="input h-72"
           name="message"
           id=""
           cols="30"
