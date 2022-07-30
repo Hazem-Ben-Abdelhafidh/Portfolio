@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Title from "./Title";
-
+import Resume from "./../../Hazem-Ben-Abdelhafidh-Resume.pdf";
 const Home = () => {
   return (
     <div className="  h-screen bg-gray-50 p-3 flex-col flex justify-center items-center">
@@ -15,7 +15,7 @@ const Home = () => {
             Contact Me!
           </Link>
           <a
-            href="./../../Hazem-Ben-Abdelhafidh-Resume.pdf"
+            href={Resume}
             className="button cursor-pointer"
             download={"Hazem Ben Abdelhafidh Resume"}
           >
