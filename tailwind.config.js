@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       fontFamily: {
         logo: "'Courgette', cursive",
+        default: "'Poppins', sans-serif"
       },
     },
   },

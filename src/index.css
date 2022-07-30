@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .button {
-  @apply font-semibold font-logo border-2 p-2 rounded-lg hover:text-white hover:bg-blue-600 transition-all;
+  @apply font-semibold font-logo border-2 p-2 rounded-lg hover:text-white hover:bg-blue-600  duration-500;
 }
 
 .input {
